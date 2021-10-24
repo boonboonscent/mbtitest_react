@@ -1,18 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import styled from "styled-components";
 import product from "../contents/product";
 import results from "../contents/results";
-import { Route, Link, NavLink, withRouter } from "react-router-dom";
+import { Link } from "react-router-dom";
 import backIcon from "../contents/back.png";
 
-const Wrapper = styled.div`
-  display: ${(props) => (props.isShow === true ? "flex" : "none")};
-  width: 100%;
-  background-color: #ffffff;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-`;
 const Container = styled.div`
   display: flex;
   text-align: center;
@@ -92,8 +84,6 @@ const RecommandGrid = styled.div`
   row-gap: 15px;
   margin-bottom: 45px;
 `;
-
-const RecommandNoteGrid = styled.div``;
 
 const BackImg = styled.img`
   display: inline-block;

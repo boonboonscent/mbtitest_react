@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 import Parser from "html-react-parser";
@@ -7,9 +7,7 @@ import results from "../contents/results";
 import product from "../contents/product";
 import RestartBtn from "../components/RestartBtn";
 import MoreBtn from "../components/MoreBtn";
-import MorePerfumePage from "./MorePerfumePage";
-import { render } from "@testing-library/react";
-import { FaInstagram, IconName } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 import { Link } from "react-router-dom";
 //import KakaoShareBtn from "../components/Kakao";
 //import LinkCopyBtn from "../assets/btn/btn_link.svg";
